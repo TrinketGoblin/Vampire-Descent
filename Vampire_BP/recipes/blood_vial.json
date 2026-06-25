@@ -1,0 +1,37 @@
+{
+    "format_version": "1.21.40",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "vamp:blood_vial_craft"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:glass_bottle"
+            },
+            {
+                "item": "minecraft:red_dye"
+            },
+            {
+                "item": "minecraft:fermented_spider_eye"
+            }
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:glass_bottle"
+            },
+            {
+                "item": "minecraft:red_dye"
+            },
+            {
+                "item": "minecraft:fermented_spider_eye"
+            }
+        ],
+        "result": {
+            "item": "vamp:blood_vial",
+            "count": 1
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+        "controller.render.vampire_bat_player": {
+            "geometry": "query.has_tag('bat_form') ? Geometry.bat : Geometry.default",
+            "materials": [
+                { "*": "Material.default" }
+            ],
+            "textures": [
+                "query.has_tag('bat_form') ? Texture.bat : Texture.default"
+            ]
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "format_version": "1.21.40",
+    "minecraft:item": {
+        "description": {
+            "identifier": "vamp:config_medallion",
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "item.vamp:config_medallion.name"
+            },
+            "minecraft:icon": {
+                "textures": {
+                    "default": "config_medallion"
+                }
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:glint": true
+        }
+    }
+}

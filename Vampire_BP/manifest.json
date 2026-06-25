@@ -1,0 +1,38 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Vampiric Descent BP",
+        "description": "Vampiric Descent addon for Chaos Cubed — Realm & server compatible.",
+        "uuid": "ae330769-64de-4295-905c-c61272a5f1c3",
+        "version": [1, 15, 0],
+        "min_engine_version": [1, 21, 60]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "a63a41ed-f063-40af-ad96-1fe499004893",
+            "version": [1, 0, 0]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "a1dd15c1-353e-4a08-8824-fe577016f745",
+            "entry": "scripts/main.js",
+            "version": [1, 0, 0]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "ad6ce02f-997a-44e7-addd-befc7a3d3852",
+            "version": [1, 9, 0]
+        },
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.8.0"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "2.1.0"
+        }
+    ]
+}

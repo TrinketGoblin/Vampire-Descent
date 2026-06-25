@@ -1,0 +1,9 @@
+{
+    "resource_pack_name": "vampiric_descent_rp",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "config_medallion": { "textures": "textures/items/config_medallion" },
+        "blood_vial":        { "textures": "textures/items/blood_vial" },
+        "vampire_cloak":     { "textures": "textures/items/vampire_cloak" }
+    }
+}

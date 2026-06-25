@@ -1,0 +1,59 @@
+{
+    "format_version": "1.8.0",
+    "animations": {
+        "animation.vampire_bat.wing_flap": {
+            "loop": true,
+            "animation_length": 0.5,
+            "bones": {
+                "leftWing": {
+                    "rotation": {
+                        "0.0":  [0,   0,  20],
+                        "0.25": [0,   0, -40],
+                        "0.5":  [0,   0,  20]
+                    }
+                },
+                "leftWingTip": {
+                    "rotation": {
+                        "0.0":  [0, 0,  10],
+                        "0.25": [0, 0, -20],
+                        "0.5":  [0, 0,  10]
+                    }
+                },
+                "rightWing": {
+                    "rotation": {
+                        "0.0":  [0,   0, -20],
+                        "0.25": [0,   0,  40],
+                        "0.5":  [0,   0, -20]
+                    }
+                },
+                "rightWingTip": {
+                    "rotation": {
+                        "0.0":  [0, 0, -10],
+                        "0.25": [0, 0,  20],
+                        "0.5":  [0, 0, -10]
+                    }
+                },
+                "Head": {
+                    "rotation": {
+                        "0.0":  [-10, 0, 0],
+                        "0.25": [ -5, 0, 0],
+                        "0.5":  [-10, 0, 0]
+                    }
+                }
+            }
+        },
+        "animation.vampire_bat.idle": {
+            "loop": true,
+            "animation_length": 2.0,
+            "bones": {
+                "body": {
+                    "rotation": {
+                        "0.0":  [0, 0, 0],
+                        "1.0":  [5, 0, 0],
+                        "2.0":  [0, 0, 0]
+                    }
+                }
+            }
+        }
+    }
+}

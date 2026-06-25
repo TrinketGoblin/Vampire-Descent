@@ -1,0 +1,23 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Vampiric Descent RP",
+        "description": "Textures and UI for Vampiric Descent.",
+        "uuid": "ad6ce02f-997a-44e7-addd-befc7a3d3852",
+        "version": [1, 15, 0],
+        "min_engine_version": [1, 21, 60]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "6b31ad03-fedf-4854-861d-aa9befa5da9e",
+            "version": [1, 0, 0]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "ae330769-64de-4295-905c-c61272a5f1c3",
+            "version": [1, 9, 0]
+        }
+    ]
+}

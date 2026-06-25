@@ -1,0 +1,24 @@
+{
+    "format_version": "1.21.40",
+    "minecraft:recipe_shaped": {
+        "description": { "identifier": "vamp:vampire_cloak_craft" },
+        "tags": ["crafting_table"],
+        "unlock": [
+            { "item": "minecraft:phantom_membrane" },
+            { "item": "minecraft:obsidian" },
+            { "item": "minecraft:leather" }
+        ],
+        "pattern": [
+            "POP",
+            "LNL",
+            "LLL"
+        ],
+        "key": {
+            "P": { "item": "minecraft:phantom_membrane" },
+            "O": { "item": "minecraft:obsidian" },
+            "L": { "item": "minecraft:leather" },
+            "N": { "item": "minecraft:netherite_ingot" }
+        },
+        "result": { "item": "vamp:vampire_cloak", "count": 1 }
+    }
+}
